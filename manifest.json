@@ -1,0 +1,11 @@
+{
+    "name": "Hide ClickBait",
+    "version": "0.0.1",
+    "description": "Hides headlines that are clickbait",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "serviceWorker.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting", "runtime"]
+}
