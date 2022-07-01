@@ -7,5 +7,19 @@
         "service_worker": "serviceWorker.js"
     },
     "host_permissions": ["<all_urls>"],
-    "permissions": ["scripting", "runtime"]
+    "permissions": ["scripting", "runtime"],
+    "action": {
+        "default_icon": {
+            "16": "/images/fslint-icon-icon_16.png",
+            "32": "/images/fslint-icon-icon_32.png",
+            "48": "/images/fslint-icon-icon_48.png",
+            "128": "/images/fslint-icon-icon_128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/fslint-icon-icon_16.png",
+        "32": "/images/fslint-icon-icon_32.png",
+        "48": "/images/fslint-icon-icon_48.png",
+        "128": "/images/fslint-icon-icon_128.png"
+    }
 }
